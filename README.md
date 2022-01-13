@@ -39,18 +39,12 @@ newfs_msdos是Fat32格式化工具。实现在设备上构建一个FAT12、FAT16
 - -r reserved  ：保留扇区数。
 - -s total  ：文件系统大小。
 - -u track-size  ：每个磁道的扇区数。  
-
   
 #### 来源
-newfs_msdos是freebsd/freebsd-src/tree/master/sbin下的一个功能，源代码路径：
+1.  newfs_msdos是[freebsd/freebsd-src](https://github.com/freebsd/freebsd-src/tree/master/sbin/newfs_msdos)下的一个功能。  
+2.  BSD提供的[使用手册](https://www.freebsd.org/cgi/man.cgi?query=newfs_msdos)。  
+3.  可以到[freebsd-src](https://github.com/freebsd/freebsd-src.git)了解源代码。   
 
-https://github.com/freebsd/freebsd-src/tree/master/sbin/newfs_msdos
-  
-#### BSD使用手册链接：  
-https://www.freebsd.org/cgi/man.cgi?query=newfs_msdos
-  
-#### 如何获取  
-https://github.com/freebsd/freebsd-src.git 
 
 
 

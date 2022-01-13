@@ -52,7 +52,7 @@ ohos_executable("newfs_msdos") {
   include_dirs = []
   install_enable = true
   deps = []
-  subsystem_name = "storage_manager"
+  subsystem_name = "filemanagement"
   part_name = "storage_standard"
   install_images = ["system"]
 }
