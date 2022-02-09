@@ -37,7 +37,7 @@ config("vfat-defaults") {
     "-DMAKEFS",
     "-D_MACHINE_IOCTL_FD_H_",
   ]
-  include_dirs = ["//third_party/FreeBSD/sys"]
+  include_dirs = [ "//third_party/FreeBSD/sys" ]
 }
 
 ###################################################
@@ -53,6 +53,6 @@ ohos_executable("newfs_msdos") {
   install_enable = true
   deps = []
   subsystem_name = "filemanagement"
-  part_name = "storage_standard"
-  install_images = ["system"]
+  part_name = "storage_service"
+  install_images = [ "system" ]
 }
